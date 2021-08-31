@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='stylecontact.css'>
+    <script src='mycode.js'></script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Fullname:</td>
+            <td>
+                <input type='text' id='name' oninput="changeColor(1)" onchange='changeDeColor(1)' placeholder='Enter your full name'>
+            </td>
+        </tr>    
+        <tr>
+            <td>Phone:</td>
+            <td>
+                <input type='text' id='phone' oninput="changeColor(2)" placeholder='Enter your phone'>
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>
+                <input type='text' id='email' oninput="changeColor(3)" placeholder='Enter your email'>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button class='btn' onclick='checkForm()'>Send</button></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

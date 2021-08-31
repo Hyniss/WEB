@@ -1,0 +1,22 @@
+table{
+    padding: 23px;
+}
+table tr td{
+    padding:4px;
+}
+/* table input */
+#name{
+    padding: 6px 21px;
+    border-radius: 4px;
+}
+#phone{
+    padding: 6px 21px;
+    border-radius: 4px;
+}
+#email{
+    padding: 6px 21px;
+    border-radius: 4px;
+}
+.btn{
+    text-align: center;
+}
